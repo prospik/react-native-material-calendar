@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SevenSwen/react-native-material-calendar/issues"
   },
-  "homepage": "https://github.com/SevenSwen/react-native-material-calendar#readme"
+  "homepage": "https://github.com/SevenSwen/react-native-material-calendar#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
