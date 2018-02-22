@@ -1,11 +1,12 @@
 'use strict';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import ReactNative, {
     requireNativeComponent,
     View,
     UIManager
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 const NativeCalendar = requireNativeComponent('RNMaterialCalendar', Calendar);
 
