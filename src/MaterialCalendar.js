@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 import ReactNative, {
     requireNativeComponent,
     View,
-    UIManager
+    UIManager,
+    ViewPropTypes
 } from 'react-native';
 import PropTypes from 'prop-types';
 
@@ -95,7 +96,7 @@ class Calendar extends Component {
 }
 
 Calendar.propTypes = {
-    ...View.propTypes,
+    ...ViewPropTypes,
     width: PropTypes.number.isRequired,
     topbarVisible: PropTypes.bool,
     arrowColor: PropTypes.string,
